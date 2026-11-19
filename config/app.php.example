@@ -1,0 +1,13 @@
+<?php
+declare(strict_types=1);
+
+const APP_NAME = 'SmartWaste GIS';
+const APP_URL = '/SWMMS';
+const UPLOAD_DIR = __DIR__ . '/../uploads/reports/';
+const DEFAULT_MAP_LATITUDE = 4.8156;
+const DEFAULT_MAP_LONGITUDE = 7.0498;
+const DEFAULT_MAP_ZOOM = 12;
+
+define('MAPBOX_ACCESS_TOKEN', getenv('MAPBOX_ACCESS_TOKEN') ?: '');
+
+date_default_timezone_set('Africa/Lagos');
